@@ -5,22 +5,27 @@ import "./globals.css";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+    display: "swap"
 });
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+    display: "swap",
 });
 
 const inter = Inter({
     variable: "--font-inter",
-    subsets: ["latin"]
+    subsets: ["latin"],
+    display: "swap",
+
 })
 
 const poppins = Poppins({
     variable:"--font-poppins",
     subsets: ["latin"],
-    weight: ["200", "800"]
+    weight: ["200", "800"],
+    display: "swap",
 })
 
 export const metadata: Metadata = {
